@@ -34,10 +34,9 @@ scikit-learn
 sentence-transformers
 transformers
 tokenizers
+
 nltk
 tiktoken
-
-
 
 # Llama Index for rockline RAG
 
@@ -47,11 +46,10 @@ llama-index==0.12.10
 llama-index-core==0.12.10
 llama-index-embeddings-huggingface==0.5.0
 llama-index-llms-text-generation-inference==0.3.1
-llama-index-readers-file==0.4.0
-llama-index-readers-llama-parse==0.4.0
-llama-index-vector-stores-qdrant==0.4.2
+llama-index-embeddings-text-embeddings-inference
 text-generation==0.7.0
-qdrant-client==1.12.2
+chromadb
+
 
 pydantic==2.10.4
-llama-index-llms-ollama
+
